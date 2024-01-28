@@ -34,7 +34,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   return new NextResponse(`<!DOCTYPE html><html><head>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="https://first-frame-phi.vercel.app/choice />
+    <meta property="fc:frame:image" content="${img}" />
     <meta property="fc:frame:button:1" content="Farcaster" />
     <meta property="fc:frame:button:2" content="Twitter" />
     <meta property="fc:frame:post_url" content="https://first-frame-phi.vercel.app/api/frame" />
